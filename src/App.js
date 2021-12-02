@@ -2,10 +2,10 @@ import './App.css';
 import Palette from './Palette';
 import seedColor from './seedColor';
 
-function App() {
+function App(props) {
   return (
     <div>
-      <Palette {...seedColor[4]}/>
+      <Palette {...seedColor[2]}/>
     </div>
   );
 }
